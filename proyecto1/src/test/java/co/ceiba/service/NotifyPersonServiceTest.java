@@ -24,7 +24,7 @@ public class NotifyPersonServiceTest {
 	public void notifyTest(){
 		Person person = new PersonTestDataBuilder().build();
 		String message = notifyPersonService.Notyfy(person);
-		//Assert.assertNotNull(message);
-		Assert.assertNotNull(null);
+		Assert.assertNotNull(message);
+		//Assert.assertNotNull(null);
 	}
 }
